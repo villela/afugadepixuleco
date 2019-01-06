@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">A Fuga de Pixuleco</string>
+    <string name="facebook_app_id">155405114827397</string>
+    <string name="app_id">669320742336</string>
+    <string name="pixuleco">Pixuleco</string>
+    <string name="gamewontext">Parabéns, você completou o nível %1$s prendendo %2$s em %3$s segundos!</string>
+    <string name="gamewon_share_text">Eu prendi %1$s(%2$s) em A Fuga de Pixuleco em %3$s segundos!</string>
+    <string name="next_level">Próximo Nível</string>
+    <string name="share_happines">Compartilhar alegria</string>
+</resources>

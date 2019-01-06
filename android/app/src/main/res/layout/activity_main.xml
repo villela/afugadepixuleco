@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             tools:context="com.matheusvillela.afugadepixuleco.MainActivity"
+             android:layout_height="match_parent">
+
+    <com.matheusvillela.afugadepixuleco.game.view.BackgroundView
+        android:id="@+id/background_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.matheusvillela.afugadepixuleco.game.view.ForegroundView
+        android:id="@+id/foreground_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_left_jump"
+            android:src="@drawable/ic_up"
+            style="@style/ControlButton"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_left_move"
+            android:src="@drawable/ic_left"
+            style="@style/ControlButton"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_left_crouch"
+            android:src="@drawable/ic_down"
+            style="@style/ControlButton"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:orientation="vertical">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_right_jump"
+            android:src="@drawable/ic_up"
+            style="@style/ControlButton"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_right_move"
+            android:src="@drawable/ic_right"
+            style="@style/ControlButton"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_right_crouch"
+            android:src="@drawable/ic_down"
+            style="@style/ControlButton"/>
+
+    </LinearLayout>
+
+</FrameLayout>
